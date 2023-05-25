@@ -1,0 +1,30 @@
+.transactionContainer {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 30px;
+  width: 500px;
+  border-bottom: 1px solid lightgray;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 24px;
+}
+.icon {
+  font-size: 42px;
+}
+
+.progressBarContainer {
+  progress {
+    width: 100%;
+  }
+}
+.progressBarLabelContainer {
+  display: flex;
+  justify-content: space-between;
+}
